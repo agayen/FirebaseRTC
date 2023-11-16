@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "iplchat-dab66",
+    "staging": "iplchat-dab66"
+  },
+  "targets": {},
+  "etags": {}
+}
