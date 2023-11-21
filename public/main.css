@@ -21,6 +21,7 @@ button span, button i{
     width: 100vw;
     height: 100vh;
     background: black;
+    overflow: hidden;
 }
 
 .remote-video video{
@@ -35,7 +36,11 @@ button span, button i{
     left: 78vw;
     width: 20vw;
     height: 20vh;
-    background: rgb(104, 80, 80);
+    background: rgb(9, 9, 9);
+    box-shadow: 3px 3px 50px rgba(248, 248, 248, 0.406);
+    border: 2px solid rgb(93, 92, 92);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .local-video video{
@@ -43,3 +48,11 @@ button span, button i{
     height: auto;
     object-fit: cover;
 }
+
+.current-room{
+    position: fixed;
+    color: white;
+    z-index: 500;
+}
+
+ 
