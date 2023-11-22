@@ -15,6 +15,7 @@ button span, button i{
 #buttons{
     position: fixed;
     bottom: 10px;
+    z-index: 500;
 }
 
 .remote-video{
